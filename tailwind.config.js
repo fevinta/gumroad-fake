@@ -7,7 +7,11 @@ export default {
     './app/views/**/*.{erb,haml,html,slim}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'MabryRegularPro': ['MabryRegularPro', 'serif'],
+      },
+    }
   },
   plugins: [],
 }
